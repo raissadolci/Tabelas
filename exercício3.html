@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3 - Tabelas</title>
+
+    <style>
+
+        table { 
+            border: 1px solid black;
+            width: 350px;
+            border-spacing: 3px;
+            
+        }
+
+        tr {
+            border: 1px solid black;
+            height: 95px;
+            
+        }
+
+        td {
+            border: 1px solid black;
+            
+        }
+
+        #tabela3 {
+            width: 600px;
+            
+        }
+
+        .linhas {
+            height: 120px;
+        }
+
+    </style>
+</head>
+
+<body>
+    
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <td colspan="3"></td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <br>
+    <br>
+
+    <div>
+        <table>
+               <tr>
+                    <td rowspan="3"></td>  
+                    <td></td>
+                    <td></td>                   
+                </tr>
+           
+
+         
+                <tr >
+                    <td></td>
+                    <td></td>
+                </tr>
+        
+
+            
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+            
+        </table>
+    </div>
+
+    <br>
+    <br>
+
+    <div >
+        <table id="tabela3">
+            <tr class="linhas">
+                <td colspan="5"></td>  
+            </tr>
+            <tr class="linhas">
+                <td rowspan="4"></td>
+                <td></td> 
+                <td></td> 
+                <td></td> 
+                <td></td> 
+            </tr>
+            <tr class="linhas">
+                <td></td>
+                <td></td> 
+                <td rowspan="2"></td> 
+                <td></td> 
+            </tr>
+
+            <tr class="linhas">
+                <td></td>
+                <td></td> 
+                <td></td> 
+            </tr>
+            <tr class="linhas">
+                <td colspan="3"></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
